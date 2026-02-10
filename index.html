@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>surprise! :></title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body class="overflow-x-hidden">
+
+    <div class="relative">
+        <!-- first page -->
+        <div class="relative sticky top-0 h-screen flex items-center justify-center text-center p-6 overflow-hidden">
+            <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+                <source src="images/MVI_4357.mp4" type="video/mp4">
+            </video>
+
+            <div class="absolute inset-0 bg-rose-50/60"></div>
+
+            <div class="relative flex gap-4 md:gap-8 items-center justify-center">
+
+                <div class="bg-white p-3 pb-10 shadow-xl transform -rotate-6 hover:rotate-0 hover:scale-105 transition duration-300">
+                    <img src="images/ska5.jpg" alt="Memory 1" class="w-32 h-32 md:w-75 md:h-75 object-cover border border-gray-200">
+                </div>
+
+                <div class="bg-white p-3 pb-10 shadow-xl transform rotate-2 z-10 hover:scale-105 transition duration-300">
+                    <img src="images/ska4.jpg" alt="Memory 2" class="w-32 h-32 md:w-90 md:h-90 object-cover border border-gray-200">
+                </div>
+
+                <div class="bg-white p-3 pb-10 shadow-xl transform rotate-12 hover:rotate-0 hover:scale-105 transition duration-300">
+                    <img src="images/ska2.jpg" alt="Memory 3" class="w-32 h-32 md:w-75 md:h-75 object-cover border border-gray-200">
+                </div>
+
+            </div>
+        </div>
+        <!-- 2nd page -->
+        <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-rose-50 text-rose-900 p-6 text-center">
+          <div class="paper-sheet relative max-w-lg w-full bg-white p-8 md:p-12 shadow-2xl rounded-sm">
+              
+              <div class="paper-lines absolute inset-0 pointer-events-none"></div>
+      
+              <div class="relative z-10 font-serif italic text-left">
+                  <h2 class="text-3xl md:text-2xl font-bold mb-6 text-rose-800 not-italic">To My Beautiful Wife,</h2>
+                  
+                  <p class="mb-4 leading-relaxed text-m">
+                    Thank you for always bringing light into my world and for showing me how beautiful love can truly be. 
+                    I am grateful to have a wife as beautiful and delicate as the flowers I gave you, and 
+                    I love you as deeply as I fall into your beautiful almond eyes. 
+                      
+                  </p>
+                  
+                  <p class="mb-4 leading-relaxed text-m">
+                    From two years ago, through last year, today, and every Valentine’s 
+                    Day yet to come, I will never get tired of asking you… Can I be your Valentine?
+                  </p>
+                  
+                  <div class="mt-10">
+                      <p class="text-xl font-bold text-rose-700">With all my love,</p>
+                      <p class="text-xl mt-2 font-handwritten">chard</p>
+                  </div>
+              </div>
+      
+              <div class="paper-corner"></div>
+          </div>
+      </div>
+        <!-- 3th page -->
+        <div class="sticky top-0 h-screen w-full flex items-center justify-center" id="firstLayer">
+    
+          <div id="star-container">
+              <div id="stars-small" class="star-layer"></div>
+              <div id="stars-medium" class="star-layer"></div>
+              <div id="stars-large" class="star-layer"></div>
+          </div>
+      
+          <div class="container">
+              <p class="allura-regular" id="text1">Happy Valentine's Day!</p>
+              <div class="flex flex-wrap justify-center gap-4 text-rose-900">
+                  <div class="w-24 p-3 bg-white rounded-xl shadow-md text-center">
+                      <div id="days" class="font-mono text-4xl leading-none">00</div>
+                      <div class="uppercase text-sm mt-1">Days</div>
+                  </div>
+                  <div class="w-24 p-3 bg-white rounded-xl shadow-md text-center">
+                      <div id="hours" class="font-mono text-4xl leading-none">00</div>
+                      <div class="uppercase text-sm mt-1">Hours</div>
+                  </div>
+                  <div class="w-24 p-3 bg-white rounded-xl shadow-md text-center">
+                      <div id="minutes" class="font-mono text-4xl leading-none">00</div>
+                      <div class="uppercase text-sm mt-1">Minutes</div>
+                  </div>
+                  <div class="w-24 p-3 bg-white rounded-xl shadow-md text-center">
+                      <div id="seconds" class="font-mono text-4xl leading-none">00</div>
+                      <div class="uppercase text-sm mt-1">Seconds</div>
+                  </div>
+              </div>
+              <div class="image-container">
+                  <img class="manzdev" src="https://gifaya.com/wp-content/uploads/2019/05/Gif-Combiner-Love-Gif-Images.gif" alt="ManzDev">
+              </div>
+          </div>
+      </div>
+
+    </div>
+
+</body>
+</html>
